@@ -1,0 +1,131 @@
+body {
+    margin: 0 auto;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    max-width: 1500px;
+}
+
+.contents {
+    margin: 0 80px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.header-contents {
+    height: 48px;
+    border-bottom: 2px solid black;
+}
+
+.header-contents h1 {
+    margin-left: 10px;
+}
+
+.headding {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.headding .my-image {
+    flex: auto;
+    width: 40%;
+    margin: auto 0;
+    
+}
+
+.headding .my-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.headding .my-careers {
+    flex: auto;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.headding .my-careers h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.headding .my-careers h2 {
+    font-size: 32px;
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+.headding .my-careers p {
+    padding-left: 10px;
+}
+
+.headding .my-careers .career {
+    padding: 15px;
+}
+
+.my-introduces {
+    margin: 20px;
+}
+
+.my-introduce {
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+}
+
+.my-introduce h2 {
+    font-size: 32px;
+    margin: 0 20px;
+}
+
+.my-introduce h3 {
+    font-size: 28px;
+    margin: 0 30px;
+    margin-top: 15px;
+}
+
+.my-introduce .my-name {
+    margin: 0 20px;
+    padding: 5px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+.my-introduce .p-background {
+    background-color: white;
+    border-radius: 15px;
+    margin: 2px 30px;
+    padding: 1px 15px;
+}
+
+.my-introduce p {
+    font-size: 24;
+    
+}
+
+@media (max-width: 1400px) {
+    .contents {
+        margin: 0 10px;
+    }
+
+    .headding {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .headding .my-image {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .headding .my-careers {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
